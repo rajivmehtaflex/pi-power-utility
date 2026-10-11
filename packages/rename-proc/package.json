@@ -1,0 +1,13 @@
+{
+  "name": "@rajivmehtaflex/pi-rename-proc",
+  "version": "0.1.0",
+  "description": "Automatically name Pi sessions from their conversation",
+  "type": "module",
+  "keywords": ["pi-package", "pi", "pi-extension", "session-naming"],
+  "pi": {
+    "extensions": ["./extensions/rename-proc.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}

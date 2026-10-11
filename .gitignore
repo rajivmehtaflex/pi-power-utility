@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node.js / TypeScript packages
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.npm/

@@ -1,0 +1,24 @@
+{
+  "name": "@rajivmehtaflex/pi-power-utility",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monorepo aggregator for Pi coding-agent packages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajivmehtaflex/pi-power-utility.git"
+  },
+  "keywords": ["pi-package", "pi", "monorepo"],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "workspaces": ["packages/*"],
+  "pi": {
+    "extensions": [
+      "./packages/*/extensions/**/*.ts",
+      "./packages/*/extensions/**/*.js"
+    ],
+    "skills": ["./packages/*/skills/*"],
+    "prompts": ["./packages/*/prompts/**/*.md"],
+    "themes": ["./packages/*/themes/**/*.json"]
+  }
+}
