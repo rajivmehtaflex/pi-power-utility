@@ -1,0 +1,22 @@
+{
+  "name": "@rajivmehtaflex/pi-modal-deploy-ssh",
+  "version": "0.1.0",
+  "description": "Named Modal SSH sessions with automatic SSH config management for VS Code Remote-SSH",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "skill",
+    "modal",
+    "ssh",
+    "vscode",
+    "remote-development",
+    "cloud-vm"
+  ],
+  "pi": {
+    "skills": ["./skills/modal-deploy-ssh"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}

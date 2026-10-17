@@ -9,6 +9,7 @@ Each independently installable package lives under `packages/<package-name>/`. T
 | Package | Description | Docs |
 |---|---|---|
 | [`rename-proc`](./packages/rename-proc/) | Automatically names the active session from its conversation | [README](./packages/rename-proc/README.md) |
+| [`modal-deploy-ssh`](./packages/modal-deploy-ssh/) | Named Modal SSH sessions with automatic SSH config for VS Code Remote-SSH | [README](./packages/modal-deploy-ssh/README.md) |
 
 ## Install
 
@@ -46,6 +47,10 @@ packages/                 Independently installable Pi packages
     extensions/            Pi extension entry points
     package.json           Package metadata and Pi resource manifest
     README.md              Package-specific usage and behavior
+  modal-deploy-ssh/        Named Modal SSH sessions for VS Code Remote-SSH
+    skills/                Agent Skills (SKILL.md + scripts + references)
+    package.json           Package metadata and Pi resource manifest
+    README.md              Install, usage, and lifecycle guide
 package.json               Private workspace + root Pi-package manifest
 CONTRIBUTING.md            Guidance for adding and changing packages
 LICENSE                    Apache-2.0
